@@ -1,13 +1,64 @@
 /* font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
 
-
-h1 {
+/* .navbar {
+    background-color: #7c73e6;
+} */
+h1,h2,h3,h4 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
+    text-align: center;
 }
 
-p {
+p,a {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
+    text-align: center;
+}
+
+header {
+    background-color: #c4c1e0;
+}
+
+.introduction {
+    padding: 150px 100px ;
+    color: #432e4eef;
+}
+.introduction h1 {
+    font-size: 88px;
+}
+.introduction h2 {
+    font-size: 60px;
+}
+
+.part-about-me {
+background-color: #ffe9e3;
+}
+
+.skills-tools {
+    background-color: #cefff1;
+}
+
+.last-work {
+    background-color: #ace7ef;
+}
+footer {
+    background-color: #fafafa;
+    text-align: center;
+}
+a.button-uniqe:hover {
+    background-color: #7c73e6;
+    
+}
+a.button-uniqe {
+    background-color: #c4c1e0;
+}
+
+@media (max-width: 900px) {
+    .introduction h1 {
+        font-size: 60px;
+    }
+    .introduction h2 {
+        font-size: 42px;
+    }
 }
