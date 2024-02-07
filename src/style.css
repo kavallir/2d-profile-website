@@ -1,9 +1,6 @@
 /* font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif; */
 
-/* .navbar {
-    background-color: #7c73e6;
-} */
 h1,h2,h3,h4 {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
@@ -33,14 +30,17 @@ header {
 
 .part-about-me {
 background-color: #ffe9e3;
+padding: 20px ;
 }
 
 .skills-tools {
-    background-color: #cefff1;
+    background-color: #ace7ef;
+    padding: 15px;
 }
 
 .last-work {
-    background-color: #ace7ef;
+    background-color: #cefff1;
+    padding: 15px;
 }
 footer {
     background-color: #fafafa;
@@ -53,6 +53,19 @@ a.button-uniqe:hover {
 a.button-uniqe {
     background-color: #c4c1e0;
 }
+.about-me {
+    margin-right: 900px;
+    padding: 15px 0;
+}
+.about-me p {
+    color: #7c73e6;
+    font-size: 26px;
+
+}
+.about-me h3 {
+    color: #432e4eef;
+    font-size: 48px;
+}
 
 @media (max-width: 900px) {
     .introduction h1 {
@@ -61,4 +74,148 @@ a.button-uniqe {
     .introduction h2 {
         font-size: 42px;
     }
+    .about-me h3 {
+        font-size: 36px;
+    }
+    .about-me p {
+        font-size: 18px;
+    }
+    .about-me {
+        margin-right: 700px;
+        padding: 15px 0;
 }
+}
+
+.angle {
+    position: relative;
+  }
+  
+  .angle:after {
+    content: '';
+    position: absolute;
+  }
+  
+  .angle1,
+  .angle1:after {
+    height: 80px;
+    width: 100%;
+  }
+  
+  @media (min-width: 520px) {
+    .angle1,
+    .angle1:after {
+      height: 120px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .angle1,
+    .angle1:after {
+      height: 160px;
+    }
+  }
+  
+  .angle1 {
+    background-color: #ffe9e3;
+  }
+  
+  .angle1:after {
+    background-color: #c4c1e0;
+    -webkit-clip-path: polygon(100% 100%, 100% 0, 0 0);
+            clip-path: polygon(100% 100%, 100% 0, 0 0);
+  }
+  
+  .angle2,
+  .angle2:after {
+    height: 50px;
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .angle2,
+    .angle2:after {
+      height: 75px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .angle2,
+    .angle2:after {
+      height: 105px;
+    }
+  }
+  
+  .angle2 {
+    background-color: #ace7ef;
+  }
+  
+  .angle2:after {
+    background-color: #ffe9e3;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 77% 100%, 12% 42%, 0 60%);
+            clip-path: polygon(0 0, 100% 0, 100% 70%, 77% 100%, 12% 42%, 0 60%);
+  }
+  
+  /* + end of the skills part */
+
+  .angle3,
+  .angle3:after {
+    height: 50px;
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .angle3,
+    .angle3:after {
+      height: 75px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .angle3,
+    .angle3:after {
+      height: 105px;
+    }
+  }
+  
+  .angle3 {
+    background-color: #cefff1;
+  }
+  
+  .angle3:after {
+    background-color: #ace7ef;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 80% 50%, 12% 100%, 0 60%);
+            clip-path: polygon(0 0, 100% 0, 100% 70%, 80% 50%, 12% 100%, 0 60%);
+  }
+  
+/* end of work section  */
+
+  .angle4,
+  .angle4:after {
+    height: 35px;
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .angle4,
+    .angle4:after {
+      height: 55px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .angle4,
+    .angle4:after {
+      height: 75px;
+    }
+  }
+  
+  .angle4 {
+    background-color: #fafafa;
+  }
+  
+  .angle4:after {
+    background-color: #cefff1;
+    -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
+            clip-path: polygon(0 0, 100% 0, 50% 100%);
+  }
+  
