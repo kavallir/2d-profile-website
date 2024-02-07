@@ -108,6 +108,7 @@ padding: 15px;
 .icon-size {
     font-size: 36px;
 }
+
 @media (max-width: 900px) {
     .introduction h1 {
         font-size: 60px;
