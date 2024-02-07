@@ -45,13 +45,45 @@ padding: 20px ;
 footer {
     background-color: #fafafa;
     text-align: center;
+    padding: 40px;
+
 }
 a.button-uniqe:hover {
     background-color: #7c73e6;
-    
+}
+a.button-work {
+ background-color: #ace7ef;
+ text-align: center;
+ padding: 10px 15px;
+ color: #432e4eef;
+ font-family:  'Playfair Display', serif;
+}
+a.button-work:hover {
+    background-color: #84b6bdce;
 }
 a.button-uniqe {
     background-color: #c4c1e0;
+    font-family:  'Playfair Display', serif;
+}
+a.button-contact {
+    background-color: #84b6bdce;
+    text-align: center;
+    padding: 10px 15px;
+    color: #432e4eef;
+    font-family:  'Playfair Display', serif;
+    font-size: 32px;
+}
+a.button-contact:hover {
+    background-color: #ace7ef;
+}
+.button-center {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+.button-center a {
+    margin: 30px;
+    font-family:  'Playfair Display', serif;
 }
 .about-me {
     margin-right: 900px;
@@ -66,7 +98,16 @@ a.button-uniqe {
     color: #432e4eef;
     font-size: 48px;
 }
-
+.container-text-parameters {
+    font-size: 28px;
+    color: #432e4eef;
+}
+.container-text-parameters .row {
+padding: 15px;
+}
+.icon-size {
+    font-size: 36px;
+}
 @media (max-width: 900px) {
     .introduction h1 {
         font-size: 60px;
