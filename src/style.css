@@ -124,6 +124,9 @@ padding: 15px;
     .about-me {
         margin-right: 700px;
         padding: 15px 0;
+    }
+    a.button-contact {
+    font-size: 22px;
 }
 }
 
