@@ -116,7 +116,15 @@ padding: 15px;
   display: flex;
   position:absolute;
   width: 400px;
-  margin-top: -110px;
+  left: 20px;
+  top: -60px;
+}
+.cat-right-image {
+  display: flex;
+  position: absolute;
+  top: 600px; 
+ right: 100px;
+  width: 400px;
 }
 
 @media (max-width: 900px) {
@@ -136,7 +144,10 @@ padding: 15px;
     font-size: 22px;
     }
     .cat-top-image {
-      width: 200px;
+      width: 180px;
+    }
+    .cat-right-image {
+      width: 180px;
     }
 }
 
