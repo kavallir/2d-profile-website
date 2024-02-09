@@ -26,6 +26,10 @@ header {
 }
 .introduction h2 {
     font-size: 60px;
+    color: #5c54aa;
+}
+.introduction h3 {
+  font-size: 60px;
 }
 
 .part-about-me {
@@ -108,13 +112,19 @@ padding: 15px;
 .icon-size {
     font-size: 36px;
 }
+.cat-top-image {
+  display: flex;
+  position:absolute;
+  width: 400px;
+  margin-top: -110px;
+}
 
 @media (max-width: 900px) {
     .introduction h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
     .introduction h2 {
-        font-size: 42px;
+        font-size: 32px;
     }
     .about-me h3 {
         font-size: 36px;
@@ -122,13 +132,12 @@ padding: 15px;
     .about-me p {
         font-size: 18px;
     }
-    .about-me {
-        margin-right: 700px;
-        padding: 15px 0;
-    }
     a.button-contact {
     font-size: 22px;
-}
+    }
+    .cat-top-image {
+      width: 200px;
+    }
 }
 
 .angle {
@@ -264,3 +273,4 @@ padding: 15px;
             clip-path: polygon(0 0, 100% 0, 50% 100%);
   }
   
+
