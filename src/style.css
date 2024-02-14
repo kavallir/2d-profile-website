@@ -26,7 +26,8 @@ header {
 }
 .introduction h2 {
     font-size: 60px;
-    color: #5c54aa;
+    color: #625ca7;
+    font-family: 'Poppins', sans-serif;
 }
 .introduction h3 {
   font-size: 60px;
@@ -43,15 +44,16 @@ padding: 20px ;
 }
 
 .last-work {
-    background-color: #cefff1;
+    background-color: #e6b2c6;
     padding: 15px;
 }
 footer {
-    background-color: #fafafa;
+    background-color: #f6e5e5;
     text-align: center;
     padding: 40px;
 
 }
+
 a.button-uniqe:hover {
     background-color: #7c73e6;
 }
@@ -63,14 +65,14 @@ a.button-work {
  font-family:  'Playfair Display', serif;
 }
 a.button-work:hover {
-    background-color: #84b6bdce;
+    background-color: #f6e5e5;
 }
 a.button-uniqe {
     background-color: #c4c1e0;
     font-family:  'Playfair Display', serif;
 }
 a.button-contact {
-    background-color: #84b6bdce;
+    background-color: #f6e5e5;
     text-align: center;
     padding: 10px 15px;
     color: #432e4eef;
@@ -94,7 +96,7 @@ a.button-contact:hover {
     padding: 15px 0;
 }
 .about-me p {
-    color: #7c73e6;
+    color: #625ca7;
     font-size: 26px;
 
 }
@@ -115,18 +117,23 @@ padding: 15px;
 .cat-top-image {
   display: flex;
   position:absolute;
-  width: 400px;
-  left: 20px;
-  top: -60px;
+  width: 350px;
+  left: 10px;
+  top: -130px;
 }
 .cat-right-image {
   display: flex;
   position: absolute;
-  top: 600px; 
+  top: 450px; 
  right: 100px;
   width: 400px;
 }
-
+@media (max-width: 1550px) {
+  .cat-top-image {
+    width: 200px;
+    top: -150px;
+  }
+}
 @media (max-width: 900px) {
     .introduction h1 {
         font-size: 40px;
@@ -144,10 +151,12 @@ padding: 15px;
     font-size: 22px;
     }
     .cat-top-image {
-      width: 180px;
+      width: 140px;
+      top: -200px;
     }
     .cat-right-image {
       width: 180px;
+      right: 10px;
     }
 }
 
@@ -243,7 +252,7 @@ padding: 15px;
   }
   
   .angle3 {
-    background-color: #cefff1;
+    background-color: #e6b2c6;
   }
   
   .angle3:after {
@@ -275,11 +284,11 @@ padding: 15px;
   }
   
   .angle4 {
-    background-color: #fafafa;
+    background-color: #f6e5e5;
   }
   
   .angle4:after {
-    background-color: #cefff1;
+    background-color: #e6b2c6;
     -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
             clip-path: polygon(0 0, 100% 0, 50% 100%);
   }
