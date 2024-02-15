@@ -257,7 +257,9 @@ padding-top: 30px;
 padding-bottom: 40px;
 }
 
-
+.active {
+  color: #c4c1e0 !important;
+}
 
 
 .angle {
