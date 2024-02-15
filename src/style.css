@@ -53,7 +53,13 @@ footer {
     padding: 40px;
 
 }
-
+.work-contact-space {
+  background-color: #c4c1e0;
+  padding: 30px;
+}
+main {
+  background-color: #e6b2c6;
+}
 a.button-uniqe:hover {
     background-color: #7c73e6;
 }
@@ -114,25 +120,46 @@ padding: 15px;
 .icon-size {
     font-size: 36px;
 }
+a.links-introduction {
+  color: #625ca7;
+}
+a.links-introduction:hover {
+  color: #432e4eef;
+}
 .cat-top-image {
   display: flex;
   position:absolute;
   width: 350px;
   left: 10px;
-  top: -130px;
+  top: 70px;
 }
 .cat-right-image {
   display: flex;
   position: absolute;
-  top: 450px; 
+  top: 530px; 
  right: 100px;
+  width: 400px;
+}
+.work-right-image {
+  display: flex;
+  position: absolute;
+  top: 350px; 
+ right: 40px;
   width: 400px;
 }
 @media (max-width: 1550px) {
   .cat-top-image {
     width: 200px;
-    top: -150px;
   }
+  .cat-right-image {
+      width: 300px;
+  }
+  .introduction h1 {
+    font-size: 60px;
+}
+.introduction h2 {
+    font-size: 40px;
+}
 }
 @media (max-width: 900px) {
     .introduction h1 {
@@ -152,13 +179,25 @@ padding: 15px;
     }
     .cat-top-image {
       width: 140px;
-      top: -200px;
     }
     .cat-right-image {
       width: 180px;
       right: 10px;
     }
 }
+.work-text {
+  display: flex;
+  position: absolute;
+  top: 170px;
+  left: 250px;
+}
+.main-staff {
+padding-top: 30px;
+padding-bottom: 40px;
+}
+
+
+
 
 .angle {
     position: relative;
@@ -292,5 +331,35 @@ padding: 15px;
     -webkit-clip-path: polygon(0 0, 100% 0, 50% 100%);
             clip-path: polygon(0 0, 100% 0, 50% 100%);
   }
-  
+   /* end of footer */
 
+   .angle5,
+   .angle5:after {
+     height: 50px;
+     width: 100%;
+   }
+   
+   @media (min-width: 600px) {
+     .angle5,
+     .angle5:after {
+       height: 75px;
+     }
+   }
+   
+   @media (min-width: 900px) {
+     .angle5,
+     .angle5:after {
+       height: 105px;
+     }
+   }
+   
+   .angle5 {
+     background-color: #e6b2c6;
+   }
+   
+   .angle5:after {
+     background-color: #ffe9e3;
+     -webkit-clip-path: polygon(0 0, 100% 0, 100% 70%, 77% 100%, 12% 42%, 0 60%);
+             clip-path: polygon(0 0, 100% 0, 100% 70%, 77% 100%, 12% 42%, 0 60%);
+   }
+   /* wor work page */
